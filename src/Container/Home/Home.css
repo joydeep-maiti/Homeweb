@@ -2,19 +2,20 @@
     margin: 100px;
 }
 
-.sectiontitle{
+.sectiontitle {
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     margin-top: 50px;
     margin-bottom: 20px;
     color: rgb(53, 50, 50);
+}
+
+.sectiontitle span {
+    display: block;
+    font-size: 15px;
+    color: gray;
 } 
-
-
-
-
-
 
 
 

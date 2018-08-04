@@ -1,0 +1,20 @@
+.tile {
+    display: block;
+}
+
+.image {
+    width: 560px;
+    height: 300px;
+}
+
+.tilebadge {
+    text-align: left;
+    font-size: 15px;
+    color: brown;
+}
+
+.tiledesc {
+    text-align: left;
+    color: gray;
+    width: 420px;
+}
