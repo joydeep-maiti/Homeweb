@@ -4,6 +4,7 @@ import Features from '../../Component/Features/Features';
 import Plus from '../../Component/Plus/Plus';
 import Optiontiles from '../../Component/Optiontiles/Optiontiles';
 import Spotlighttiles from '../../Component/Spotlight/Spotlighttiles';
+import Plushomes from '../../Component/Plushomes/Plushomes';
 import classes from './Home.css';
 
 
@@ -22,6 +23,9 @@ class Home extends Component {
                     <Optiontiles />
                     <p className={classes.sectiontitle}>Experiences in the spotlight</p>
                     <Spotlighttiles />
+                    <p className={classes.sectiontitle}>Airbnb plus homes around the world
+                    <span>Browse a new selection of homes verified for quality & comfort</span></p>
+                    <Plushomes />
                 </div>
             </div>
         )
