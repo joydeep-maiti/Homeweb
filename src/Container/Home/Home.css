@@ -1,0 +1,25 @@
+.mainbody {
+    margin: 100px;
+}
+
+.sectiontitle{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(53, 50, 50);
+} 
+
+
+
+
+
+
+
+
+@media( max-width: 400px) {
+    .mainbody {
+        margin: 10px;
+    }
+}
