@@ -6,6 +6,7 @@ const signupform = () => {
         <div className={classes.form}>
             <div className={classes.formsignup}>
                 <form>
+                    <p className={classes.title}>Sign Up</p>
                     <lable>Full Name</lable>
                         <input type="text" placeholder="Your full name" />
                     <lable>Email</lable>
@@ -23,7 +24,6 @@ const signupform = () => {
                         <input type="submit" className={classes.formbtn} value="Sign Up" />
                         <h4 className={classes.linedlink}>Signin -></h4>
                     </div>
-
                 </form>
             </div>                   
         </div>
