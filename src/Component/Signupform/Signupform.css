@@ -1,0 +1,79 @@
+.form {
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.form form {
+    width: 100%;
+    height: 100%;
+}
+
+.form form lable,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+}
+
+.form form lable {
+    text-align: left;
+    color: rgb(22, 21, 21);
+    font-size: 16px;
+    font-weight: 300;
+    /* margin: 6px 0; */
+}
+
+p.terms {
+    color: rgb(36, 34, 34);
+    margin-bottom: 30px;
+}
+
+.form form input[type="text"],
+input[type="email"],
+input[type="password"] {
+    color: #fff;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 25px;
+    padding: 5px 0 10px 0;
+    background: transparent;
+    border-bottom: 1px solid #4c5c72;
+}
+
+.form form input::placeholder {
+    color: #cecece;
+}
+
+.form form a {
+    color: purple;
+}
+
+.last {
+    display: inline;
+}
+
+input.formbtn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 60px;
+    margin-top: 40px;
+    float: left;
+    border: none;
+    cursor: pointer;
+    border-radius: 35px;
+    transition: all 0.3s linear;
+    background: linear-gradient(to bottom, rgba(9, 9, 241, 0.534), purple);
+}
+
+input.formbtn:hover {
+    box-shadow: none;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.55);
+}
+
+.linedlink {
+    color: purple;
+}
