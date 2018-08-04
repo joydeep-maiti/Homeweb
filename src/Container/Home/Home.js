@@ -3,6 +3,7 @@ import Welcomeimage from '../../Component/Welcomeimage/Welcomeimage';
 import Features from '../../Component/Features/Features';
 import Plus from '../../Component/Plus/Plus';
 import Optiontiles from '../../Component/Optiontiles/Optiontiles';
+import Spotlighttiles from '../../Component/Spotlight/Spotlighttiles';
 import classes from './Home.css';
 
 
@@ -19,6 +20,8 @@ class Home extends Component {
                     <p className={classes.sectiontitle}>Homes for your kind of trip
                     <span>Find a top rated home with amenities you need</span></p>
                     <Optiontiles />
+                    <p className={classes.sectiontitle}>Experiences in the spotlight</p>
+                    <Spotlighttiles />
                 </div>
             </div>
         )
