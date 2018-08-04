@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+}
+.App {
+    text-align: center;
+}
+
+.appheader {
+    background-color: rgba(34, 34, 34, 0.342);
+    text-align: right;
+}
+.navigation {
+  padding: 10px;
+}
+.navlinks {
+    color: white;
+    padding: 0 15px;
+    text-decoration-line: none;
+}
