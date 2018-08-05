@@ -1,0 +1,12 @@
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 225px));
+    grid-gap: 10px;
+}
+
+.explore {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(51, 105, 255);
+}

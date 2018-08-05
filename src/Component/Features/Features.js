@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Features.css';
 import Feature from './Feature/Feature';
-import img1 from '../../assets/home2.jpg';
+import img1 from '../../assets/home3.jpg';
 import img2 from '../../assets/experience.jpg';
 import img3 from '../../assets/res.jpeg';
 

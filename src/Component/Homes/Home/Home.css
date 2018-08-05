@@ -1,0 +1,38 @@
+.tile {
+    display: block;
+}
+
+.image {
+    width: 225px;
+    height: 150px;
+    border-radius: 2px;
+}
+
+.tilebadge {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: rgb(109, 109, 101);
+}
+.tiletag {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: rgb(85, 84, 84);
+}
+
+.tiledesc {
+    text-align: left;
+    color: gray;
+    width: 200px;
+    font-size: 13px;
+}
+
+.tile span {
+    font-size: 10px;
+    padding: 5px;
+    color: rgb(54, 53, 53);
+    float: left;
+}

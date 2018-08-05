@@ -5,6 +5,8 @@ import Plus from '../../Component/Plus/Plus';
 import Optiontiles from '../../Component/Optiontiles/Optiontiles';
 import Spotlighttiles from '../../Component/Spotlight/Spotlighttiles';
 import Plushomes from '../../Component/Plushomes/Plushomes';
+import Stats from '../../Component/Stats/Stats'; 
+import Homes from '../../Component/Homes/Homes';
 import classes from './Home.css';
 
 
@@ -21,12 +23,17 @@ class Home extends Component {
                     <p className={classes.sectiontitle}>Homes for your kind of trip
                     <span>Find a top rated home with amenities you need</span></p>
                     <Optiontiles />
+                    <p className={classes.sectiontitle}>Homes around the world</p>
+                    <Homes />
                     <p className={classes.sectiontitle}>Experiences in the spotlight</p>
                     <Spotlighttiles />
                     <p className={classes.sectiontitle}>Airbnb plus homes around the world
                     <span>Browse a new selection of homes verified for quality & comfort</span></p>
                     <Plushomes />
                     <hr className={classes.line}/>
+                    <Stats />
+                    <hr className={classes.line} />
+                    <hr className={classes.fullline} />
                 </div>
             </div>
         )
