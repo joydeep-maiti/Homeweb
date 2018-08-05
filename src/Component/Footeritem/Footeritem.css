@@ -1,0 +1,24 @@
+.footeritem {
+    display: block;
+    float: left;
+}
+
+.subitem {
+    font-size: 13px;
+    color: rgb(75, 66, 66);
+    margin-bottom: 10px;
+    text-decoration-line: none;
+    text-align: left;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(37, 32, 41);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.subitems{
+    text-align: left;
+}

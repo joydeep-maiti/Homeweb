@@ -33,7 +33,6 @@ class Home extends Component {
                     <hr className={classes.line}/>
                     <Stats />
                     <hr className={classes.line} />
-                    <hr className={classes.fullline} />
                 </div>
             </div>
         )

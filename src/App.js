@@ -4,6 +4,7 @@ import { BrowserRouter,Route, NavLink } from 'react-router-dom';
 import Home from './Container/Home/Home';
 import Signup from './Container/Signup/Signup';
 import Login from './Container/Login/Login';
+import Footer from './Container/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -22,6 +23,10 @@ class App extends Component {
             <Route exact path='/signup' component={ Signup } />
             <Route exact path='/login' component={ Login } />
           </main>
+          <footer>
+            <hr />
+            <Footer />
+          </footer>
         </div>
       </BrowserRouter>
     );
