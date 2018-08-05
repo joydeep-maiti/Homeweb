@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import classes from './Footer.css';
 import Footeritem from '../../Component/Footeritem/Footeritem';
+import fb from '../../assets/fb.png';
+import twt from '../../assets/twt.svg';
+import ins from '../../assets/ins.svg';
 
 
 
@@ -54,7 +57,14 @@ class Footer extends Component {
                     <Footeritem title={this.state.Airbnb.title} arr={this.state.Airbnb.subitems} />
                     <Footeritem title={this.state.Discover.title} arr={this.state.Discover.subitems} />
                     <Footeritem title={this.state.Hosting.title} arr={this.state.Hosting.subitems} />
-                    <Footeritem title={this.state.social.title} arr={this.state.social.subitems} />
+                    <div className={classes.section}>
+                        <div className={classes.iconbody}>
+                            <img className={classes.icon} src={fb} alt="fb" />
+                            <img className={classes.icon} src={twt} alt="twt" />
+                            <img className={classes.icon} src={ins} alt="fb" />
+                        </div>
+                        <Footeritem title={this.state.social.title} arr={this.state.social.subitems} />
+                    </div>
                 </div>
                 <hr className={classes.line}/>
                 <div className={classes.lang}>

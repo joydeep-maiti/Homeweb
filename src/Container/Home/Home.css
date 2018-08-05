@@ -20,10 +20,9 @@
 
 .line {
     margin: 20px auto;
-    width: 80%;
-    color: rgb(233, 227, 227);
-} 
-
+    width: 100%;
+    opacity: 0.2;
+}
 
 @media( max-width: 400px) {
     .mainbody {

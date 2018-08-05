@@ -24,7 +24,7 @@ class App extends Component {
             <Route exact path='/login' component={ Login } />
           </main>
           <footer>
-            <hr />
+            <hr className={classes.line}/>
             <Footer />
           </footer>
         </div>

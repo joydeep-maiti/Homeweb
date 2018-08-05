@@ -13,6 +13,7 @@
 .line {
     margin-top: 30px;
     color: rgb(181, 189, 196);
+    opacity: 0.2;
 }
 
 .lang {
@@ -22,4 +23,18 @@
 
 .lang label {
     padding: 15px 19px;
+}
+
+.section {
+    display: grid;
+    grid-template-rows: 30px auto;
+}
+
+.icon {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.iconbody {
+    text-align: left;
 }
