@@ -10,3 +10,11 @@
     font-weight: 600;
     color: rgb(51, 105, 255);
 }
+
+@media( max-width: 650px) {
+    .tiles {
+        grid-template-columns: 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

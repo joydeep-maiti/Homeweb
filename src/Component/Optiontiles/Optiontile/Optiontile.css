@@ -3,7 +3,7 @@
 }
 
 .image {
-    width: 460px;
+    width: 100%;
     height: 250px;
     border-radius: 2px;
 }
@@ -19,6 +19,23 @@
 .tiledesc {
     text-align: left;
     color: gray;
-    width: 380px;
+    width: 80%;
     font-size: 15px;
+}
+
+@media (max-width: 1000px) {
+    .image {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image {
+        height: 150px;
+    }
+}
+@media (max-width: 608px) {
+    .image {
+        height: 200px;
+    }
 }

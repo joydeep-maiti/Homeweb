@@ -24,7 +24,21 @@
     opacity: 0.2;
 }
 
-@media( max-width: 400px) {
+@media (max-width: 1000px) {
+    .mainbody {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainbody {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media( max-width: 380px) {
     .mainbody {
         margin: 10px;
     }

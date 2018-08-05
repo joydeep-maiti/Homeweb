@@ -3,3 +3,9 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 305px));
     grid-gap: 10px;
 }
+
+@media( max-width: 650px) {
+    .tiles {
+        grid-template-columns: 1fr;
+    }
+}

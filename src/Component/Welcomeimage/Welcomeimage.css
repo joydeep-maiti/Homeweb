@@ -11,6 +11,7 @@
     top: 40%;
     left: 20%;
     display: block;
+    width: 60%;
 }
 
 .caption {
@@ -21,11 +22,22 @@
     color: white;
 }
 
+.input {
+    position: relative;
+}
+
+.input img {
+    width: 35px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
 .inputfield {
     display: block;
-    width: 100%;
+    width: 90%;
     margin-top: 30px;
-    padding: 15px 20px;
+    padding: 15px 40px;
     border: 1px solid white;
     border-radius: 2px;
     box-shadow: 30px black;
@@ -33,7 +45,7 @@
 
 .footerbtn {
     position: absolute;
-    width:7%;
+    width: 7%;
     bottom: 5px;
     right: 5px;
     background-color: white;
@@ -41,4 +53,54 @@
     border-radius: 2px;
     font-size: 15px;
     color: gray;
+}
+
+@media (max-width: 1000px) {
+    .caption {
+        font-size: 2rem;
+    }
+    .inputfield {
+        /* width: 70%; */
+        margin-top: 30px;
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .area {
+        top: 30%;
+        left: 20%;
+    }
+    .caption {
+        font-size: 1.8rem;
+    }
+    .inputfield {
+        /* width: 50%; */
+        margin-top: 30px;
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width: 380px) {
+    .area {
+        width: 80%;
+        top: 30%;
+        left: 10%;
+    }
+    .caption {
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: justify center;
+    }
+    .input img {
+        width: 20px;
+        position: absolute;
+        top: 8px;
+        left: 5px;
+    }
+    .inputfield {
+        width: 80%;
+        margin-top: 50px;
+        padding: 8px 30px;
+    }
 }

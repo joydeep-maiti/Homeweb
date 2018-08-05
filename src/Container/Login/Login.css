@@ -3,3 +3,10 @@
     background-image: linear-gradient(to bottom, rgb(128, 0, 79), rgba(0, 0, 255, 0.822));
     margin-top: -40px;
 }
+
+@media( max-width: 650px) {
+    .loginformpage {
+        height: auto;
+        padding-bottom: 25px;
+    }
+}

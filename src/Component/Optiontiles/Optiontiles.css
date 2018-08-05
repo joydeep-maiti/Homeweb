@@ -1,5 +1,16 @@
 .tiles {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 460px));
-    grid-gap: 10px;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 460px)); */
+    grid-template-columns: 48% 48%;
+    grid-gap: 2%;
+}
+
+@media (max-width: 1000px) {}
+
+@media (max-width: 768px) {}
+
+@media( max-width: 600px) {
+    .tiles {
+        grid-template-columns: 1fr;
+    }
 }

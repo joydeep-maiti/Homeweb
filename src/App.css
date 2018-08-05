@@ -25,3 +25,11 @@
 .line {
     opacity: 0.2;
 }
+
+@media (max-width:600px) {
+    .navlinks {
+        color: white;
+        padding: 0 8px;
+        text-decoration-line: none;
+    }
+}

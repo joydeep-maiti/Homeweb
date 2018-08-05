@@ -6,7 +6,7 @@
 
 .footerbody {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 210px));
     grid-gap: 20px;
 }
 
@@ -37,4 +37,12 @@
 
 .iconbody {
     text-align: left;
+}
+
+@media( max-width: 650px) {
+    .footer {
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }

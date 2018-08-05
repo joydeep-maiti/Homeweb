@@ -147,3 +147,18 @@
     border: .5px solid rgb(197, 64, 47);
     color: white;
 }
+
+@media( max-width: 650px) {
+    .loginpage {
+        width: 80%;
+    }
+    .form {
+        margin-top: 40px;
+        padding: 20px;
+    }
+    .fb,
+    .goog {
+        width: 70%;
+        margin: 5px 5%;
+    }
+}

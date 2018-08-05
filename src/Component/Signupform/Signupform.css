@@ -84,3 +84,12 @@ input.formbtn:hover {
     color: purple;
     display: inline;
 }
+
+@media( max-width: 650px) {
+    .signuppage {
+        height: auto;
+    }
+    .form form input {
+        font-size: 15px;
+    }
+}
