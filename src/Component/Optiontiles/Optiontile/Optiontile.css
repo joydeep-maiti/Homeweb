@@ -3,8 +3,9 @@
 }
 
 .image {
-    width: 560px;
-    height: 300px;
+    width: 460px;
+    height: 250px;
+    border-radius: 2px;
 }
 
 .tilebadge {
@@ -18,5 +19,6 @@
 .tiledesc {
     text-align: left;
     color: gray;
-    width: 420px;
+    width: 380px;
+    font-size: 15px;
 }

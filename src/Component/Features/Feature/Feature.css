@@ -1,14 +1,14 @@
 .tile {
     display: grid;
-    grid-template-columns: 100px 200px;
+    grid-template-columns: 80px 150px;
     border: 2px solid rgb(155, 154, 154);
 }
 
 .image {
-    width: 100px;
+    width: 80px;
 }
 
 .tiletitle {
     text-align: center;
-    padding: 20px;
+    padding: 16px;
 }

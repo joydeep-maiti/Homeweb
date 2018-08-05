@@ -3,27 +3,22 @@
 }
 
 .image {
-    width: 360px;
-    height: 200px;
+    width: 305px;
+    height: 170px;
+    border-radius: 2px;
 }
 
 .tilebadge {
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     padding-top: 5px;
     color: rgb(185, 0, 124);
-}
-.tiletag {
-    text-align: left;
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 5px;
-    color: rgb(63, 58, 58);
 }
 
 .tiledesc {
     text-align: left;
     color: gray;
     width: 290px;
+    font-size: 13px;
 }

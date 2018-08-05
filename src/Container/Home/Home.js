@@ -26,6 +26,7 @@ class Home extends Component {
                     <p className={classes.sectiontitle}>Airbnb plus homes around the world
                     <span>Browse a new selection of homes verified for quality & comfort</span></p>
                     <Plushomes />
+                    <hr className={classes.line}/>
                 </div>
             </div>
         )

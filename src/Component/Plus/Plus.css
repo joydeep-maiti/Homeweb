@@ -1,6 +1,7 @@
 .plusarea {
     background-image: url('../../assets/imgplus.jpg');
-    height: 400px;
+    width: 925px;
+    height: 300px;
     background-size: cover;
     border-radius: 3px;
 }

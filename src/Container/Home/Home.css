@@ -1,5 +1,6 @@
 .mainbody {
-    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .sectiontitle {
@@ -15,8 +16,13 @@
     display: block;
     font-size: 15px;
     color: gray;
-} 
+}
 
+.line {
+    margin: 50px auto;
+    width: 60%;
+    color: rgb(233, 227, 227);
+} 
 
 
 @media( max-width: 400px) {
